@@ -1,9 +1,7 @@
-$(document).ready(function () {
-    new Glide('.glide', {
-      type: 'carousel',
-      // Дополнительные опции и настройки
-    }).mount();
+document.addEventListener('DOMContentLoaded', function() {
+    new Glide('.glide').mount();
   });
+  
 
   window.addEventListener('scroll', function() {
     var targetScrollPosition = 500; // Задайте желаемую позицию прокрутки, при которой должен измениться цвет фона и текста
