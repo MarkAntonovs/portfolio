@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     new Glide('.glide').mount();
+    new Glide('.glide1').mount();
   });
+  
   
 
   window.addEventListener('scroll', function() {
