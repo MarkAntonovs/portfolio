@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
   window.addEventListener('scroll', function() {
-    var targetScrollPosition = 500; // Задайте желаемую позицию прокрутки, при которой должен измениться цвет фона и текста
+    var targetScrollPosition = 600; // Задайте желаемую позицию прокрутки, при которой должен измениться цвет фона и текста
     var currentScrollPosition = window.scrollY;
   
     if (currentScrollPosition >= targetScrollPosition) {
