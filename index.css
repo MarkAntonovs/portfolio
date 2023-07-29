@@ -1,6 +1,6 @@
 body{
     font-family: 'Bebas Neue', sans-serif;
-     
+     font-size: 25px;
      transition: background-color 1s ease , color 1s ease, border 1s ease;
     margin: 0;
     
@@ -142,7 +142,9 @@ justify-content: space-between;
         max-width: 600px;
     }
     
-    
+    body{
+        font-size: 20px;
+    }
 
     
     .container{
@@ -165,23 +167,23 @@ justify-content: space-between;
  }
  @media all and (min-width: 480px) and (max-width: 768px) {
     .glide{
-        max-width: 300px;
+        max-width: 500px;
     }
     .glide img{
-        max-width: 300px;
+        max-width: 500px;
     }
     
     body{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     
     .container{
 
-        max-width: 300px;
+        max-width: 500px;
     }
   .border{
-        max-width: 300px;
+        max-width: 500px;
     }
     .introducing_block_photo{
         width: 150px;
@@ -204,7 +206,7 @@ justify-content: space-between;
     }
     
     body{
-        font-size: 13.5px;
+        font-size: 16px;
     }
 
     
