@@ -225,14 +225,13 @@ justify-content: space-between;
     }
     
     .introducing_block_photo{
-        width: 150px;
+        width: 200px;
         height:auto;
         margin: 0;
     }
     .introducing_block{
        display:grid;
         padding: 50px 40px 100px 40px;
-        max-width: 300px;
         margin: auto;
     }
 
