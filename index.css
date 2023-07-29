@@ -215,15 +215,25 @@ justify-content: space-between;
   .border{
         max-width: 300px;
     }
+    .about_block{
+        margin-top: 50px;
+    }
+    .photo_block{
+        margin: 0 auto;
+        
+        
+    }
+    
     .introducing_block_photo{
         width: 150px;
         height:auto;
-        margin-right: 35px;
+        margin: 0;
     }
     .introducing_block{
-       
+       display:grid;
         padding: 50px 40px 100px 40px;
-        
+        max-width: 300px;
+        margin: auto;
     }
 
  }
