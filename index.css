@@ -3,10 +3,10 @@ body{
      font-size: 25px;
      transition: background-color 1s ease , color 1s ease, border 1s ease;
     margin: 0;
+    color: #e8e8df;
     
 }
 a {
-    color: inherit; /* Наследуем цвет ссылок от родительского элемента (body) */
     transition: color 1s ease;
     text-decoration: none; /* Плавный переход цвета ссылок длительностью 0.5 секунды */
   }
@@ -27,7 +27,7 @@ justify-content: space-between;
     left: 0;
    width: 350;
    height: auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Цвет пленки и уровень прозрачности (альфа-канал) */
+    background-color: rgba(0, 0, 0, 0.7); /* Цвет пленки и уровень прозрачности (альфа-канал) */
   }
   
 .logo{
@@ -35,14 +35,13 @@ justify-content: space-between;
     margin:  0 auto;
 }
 .logo_text{
-    color: white;
+    
     font-size: 60px;
 }
 
 .introducing_block{
     display: flex;
     background-color: black;
-    color: white;
     padding: 100px 200px 100px 200px;
     
 }
@@ -50,7 +49,7 @@ justify-content: space-between;
     width: 350px;
     height: auto;
     margin-right: 115px;
-    filter: brightness(0.5); 
+    filter: brightness(0.8); 
     
 }
 .about_block{
@@ -83,19 +82,24 @@ justify-content: space-between;
     transform: translateY(-50%);
     color: black;
 }
+
 .work_wrap{
     display: flex;
 }
 .work_desc{
     font-size: 25px;
     text-decoration: none;
+    
 
 }
-.container{
-    margin: AUTO;
-    max-width: 1000px;
+.container {
+    margin: 0 auto; /* Центрируем контейнер */
+    max-width: 1000px; /* Задаем максимальную ширину */
+    padding: 0 20px; /* Добавляем отступы для маленьких экранов */
 }
-.porlfolio_block_heading{
+
+.portfolio_block_heading{
+    padding-top: 50px;
     padding-bottom: 100px;
     margin: 0 ;
     text-align: center;
@@ -113,11 +117,11 @@ justify-content: space-between;
     margin-bottom: 60px;
     color: black;
 }
-.border{
-    margin-top: 150px;
-    align-items:center;
+.border {
+    margin: 150px auto 0 auto; /* Центрируем линию */
+    align-items: center;
     max-width: 1000px;
-    border: 0.5px solid  black;
+    border: 0.5px solid black;
 }
 .border_title{
     margin-bottom: 30px;
@@ -125,6 +129,20 @@ justify-content: space-between;
     border: 1px solid ;
     align-items: start;
     max-width: 200px;
+}
+.border_titleconti{
+    margin-bottom: 30px;
+    margin-top: -10px;
+    border: 1px solid ;
+    align-items: start;
+    max-width: 75px;
+}
+.border_titlepolanta{
+    margin-bottom: 30px;
+    margin-top: -10px;
+    border: 1px solid ;
+    align-items: start;
+    max-width: 80px;
 }
 .footer img{
     width: 40px;
